@@ -1,0 +1,187 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--ignore-scripts',
+1 verbose cli   '@types/eslint@ts3.6',
+1 verbose cli   '@types/argparse@ts3.6',
+1 verbose cli   '@types/balanced-match@ts3.6',
+1 verbose cli   '@types/brace-expansion@ts3.6',
+1 verbose cli   '@types/color-convert@ts3.6',
+1 verbose cli   '@types/color-name@ts3.6',
+1 verbose cli   '@types/concat-map@ts3.6',
+1 verbose cli   '@types/cross-spawn@ts3.6',
+1 verbose cli   '@types/debug@ts3.6',
+1 verbose cli   '@types/doctrine@ts3.6',
+1 verbose cli   '@types/eslint-scope@ts3.6',
+1 verbose cli   '@types/esquery@ts3.6',
+1 verbose cli   '@types/estraverse@ts3.6',
+1 verbose cli   '@types/esutils@ts3.6',
+1 verbose cli   '@types/fast-levenshtein@ts3.6',
+1 verbose cli   '@types/file-entry-cache@ts3.6',
+1 verbose cli   '@types/flat-cache@ts3.6',
+1 verbose cli   '@types/glob-parent@ts3.6',
+1 verbose cli   '@types/imurmurhash@ts3.6',
+1 verbose cli   '@types/inherits@ts3.6',
+1 verbose cli   '@types/is-glob@ts3.6',
+1 verbose cli   '@types/isexe@ts3.6',
+1 verbose cli   '@types/js-yaml@ts3.6',
+1 verbose cli   '@types/json-stable-stringify-without-jsonify@ts3.6',
+1 verbose cli   '@types/lodash.merge@ts3.6',
+1 verbose cli   '@types/ms@ts3.6',
+1 verbose cli   '@types/natural-compare@ts3.6',
+1 verbose cli   '@types/once@ts3.6',
+1 verbose cli   '@types/path-is-absolute@ts3.6',
+1 verbose cli   '@types/prelude-ls@ts3.6',
+1 verbose cli   '@types/punycode@ts3.6',
+1 verbose cli   '@types/run-parallel@ts3.6',
+1 verbose cli   '@types/shebang-command@ts3.6',
+1 verbose cli   '@types/supports-color@ts3.6',
+1 verbose cli   '@types/text-table@ts3.6',
+1 verbose cli   '@types/type-check@ts3.6',
+1 verbose cli   '@types/which@ts3.6',
+1 verbose cli   '--save-dev',
+1 verbose cli   '--user-agent=typesInstaller/3.6.3'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.3
+4 verbose npm-session 21905ff2175bd9ef
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/@types%2fargparse 429ms
+8 http fetch GET 200 https://registry.npmjs.org/@types%2fbrace-expansion 475ms
+9 http fetch GET 200 https://registry.npmjs.org/@types%2fcross-spawn 480ms
+10 http fetch GET 200 https://registry.npmjs.org/@types%2fbalanced-match 517ms
+11 http fetch GET 200 https://registry.npmjs.org/@types%2fcolor-name 608ms
+12 http fetch GET 200 https://registry.npmjs.org/@types%2fdebug 658ms
+13 http fetch GET 200 https://registry.npmjs.org/@types%2fcolor-convert 672ms
+14 http fetch GET 200 https://registry.npmjs.org/@types%2fconcat-map 680ms
+15 http fetch GET 200 https://registry.npmjs.org/@types%2feslint 845ms
+16 http fetch GET 200 https://registry.npmjs.org/@types/color-name/-/color-name-1.1.1.tgz 240ms
+17 silly pacote tag manifest for @types/color-name@ts3.6 fetched in 854ms
+18 http fetch GET 200 https://registry.npmjs.org/@types/color-convert/-/color-convert-2.0.0.tgz 190ms
+19 silly pacote tag manifest for @types/color-convert@ts3.6 fetched in 868ms
+20 http fetch GET 200 https://registry.npmjs.org/@types/argparse/-/argparse-1.0.38.tgz 440ms
+21 silly pacote tag manifest for @types/argparse@ts3.6 fetched in 876ms
+22 http fetch GET 200 https://registry.npmjs.org/@types%2feslint-scope 96ms
+23 http fetch GET 200 https://registry.npmjs.org/@types/debug/-/debug-4.1.7.tgz 390ms
+24 silly pacote tag manifest for @types/debug@ts3.6 fetched in 1054ms
+25 http fetch GET 200 https://registry.npmjs.org/@types%2fesutils 112ms
+26 http fetch GET 200 https://registry.npmjs.org/@types/eslint-scope/-/eslint-scope-3.7.1.tgz 377ms
+27 silly pacote tag manifest for @types/eslint-scope@ts3.6 fetched in 477ms
+28 http fetch GET 200 https://registry.npmjs.org/@types%2ffast-levenshtein 113ms
+29 http fetch GET 200 https://registry.npmjs.org/@types/cross-spawn/-/cross-spawn-6.0.2.tgz 1193ms
+30 silly pacote tag manifest for @types/cross-spawn@ts3.6 fetched in 1680ms
+31 http fetch GET 200 https://registry.npmjs.org/@types/balanced-match/-/balanced-match-1.0.1.tgz 1172ms
+32 silly pacote tag manifest for @types/balanced-match@ts3.6 fetched in 1694ms
+33 http fetch GET 200 https://registry.npmjs.org/@types/concat-map/-/concat-map-0.0.1.tgz 1010ms
+34 silly pacote tag manifest for @types/concat-map@ts3.6 fetched in 1697ms
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fflat-cache 111ms
+36 http fetch GET 200 https://registry.npmjs.org/@types%2ffile-entry-cache 118ms
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fglob-parent 253ms
+38 http fetch GET 200 https://registry.npmjs.org/@types/eslint/-/eslint-7.28.0.tgz 1295ms
+39 silly pacote tag manifest for @types/eslint@ts3.6 fetched in 2153ms
+40 http fetch GET 200 https://registry.npmjs.org/@types/brace-expansion/-/brace-expansion-1.1.0.tgz 1680ms
+41 silly pacote tag manifest for @types/brace-expansion@ts3.6 fetched in 2160ms
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fimurmurhash 109ms
+43 http fetch GET 200 https://registry.npmjs.org/@types%2finherits 122ms
+44 http fetch GET 200 https://registry.npmjs.org/@types/esutils/-/esutils-2.0.0.tgz 1187ms
+45 silly pacote tag manifest for @types/esutils@ts3.6 fetched in 1304ms
+46 http fetch GET 200 https://registry.npmjs.org/@types%2fesquery 1561ms
+47 http fetch GET 200 https://registry.npmjs.org/@types%2festraverse 1557ms
+48 http fetch GET 200 https://registry.npmjs.org/@types%2fis-glob 101ms
+49 http fetch GET 200 https://registry.npmjs.org/@types%2fdoctrine 2570ms
+50 http fetch GET 200 https://registry.npmjs.org/@types/fast-levenshtein/-/fast-levenshtein-0.0.2.tgz 1184ms
+51 silly pacote tag manifest for @types/fast-levenshtein@ts3.6 fetched in 1300ms
+52 http fetch GET 200 https://registry.npmjs.org/@types%2fisexe 110ms
+53 http fetch GET 200 https://registry.npmjs.org/@types/esquery/-/esquery-1.0.2.tgz 398ms
+54 silly pacote tag manifest for @types/esquery@ts3.6 fetched in 1966ms
+55 http fetch GET 200 https://registry.npmjs.org/@types/estraverse/-/estraverse-5.1.1.tgz 425ms
+56 silly pacote tag manifest for @types/estraverse@ts3.6 fetched in 1988ms
+57 http fetch GET 200 https://registry.npmjs.org/@types%2fjson-stable-stringify-without-jsonify 98ms
+58 silly fetchPackageMetaData error for @types/json-stable-stringify-without-jsonify@ts3.6 No matching version found for @types/json-stable-stringify-without-jsonify@ts3.6.
+59 http fetch GET 200 https://registry.npmjs.org/@types/doctrine/-/doctrine-0.0.4.tgz 388ms
+60 silly pacote tag manifest for @types/doctrine@ts3.6 fetched in 2963ms
+61 http fetch GET 200 https://registry.npmjs.org/@types/file-entry-cache/-/file-entry-cache-5.0.2.tgz 1170ms
+62 silly pacote tag manifest for @types/file-entry-cache@ts3.6 fetched in 1295ms
+63 http fetch GET 200 https://registry.npmjs.org/@types/glob-parent/-/glob-parent-5.1.1.tgz 1034ms
+64 silly pacote tag manifest for @types/glob-parent@ts3.6 fetched in 1291ms
+65 http fetch GET 200 https://registry.npmjs.org/@types/flat-cache/-/flat-cache-2.0.0.tgz 1201ms
+66 silly pacote tag manifest for @types/flat-cache@ts3.6 fetched in 1316ms
+67 http fetch GET 200 https://registry.npmjs.org/@types%2flodash.merge 119ms
+68 http fetch GET 200 https://registry.npmjs.org/@types%2fms 129ms
+69 http fetch GET 200 https://registry.npmjs.org/@types%2fnatural-compare 129ms
+70 http fetch GET 200 https://registry.npmjs.org/@types/imurmurhash/-/imurmurhash-0.1.1.tgz 1204ms
+71 silly pacote tag manifest for @types/imurmurhash@ts3.6 fetched in 1320ms
+72 http fetch GET 200 https://registry.npmjs.org/@types/inherits/-/inherits-0.0.30.tgz 1239ms
+73 silly pacote tag manifest for @types/inherits@ts3.6 fetched in 1364ms
+74 http fetch GET 200 https://registry.npmjs.org/@types/is-glob/-/is-glob-4.0.2.tgz 1173ms
+75 silly pacote tag manifest for @types/is-glob@ts3.6 fetched in 1279ms
+76 http fetch GET 200 https://registry.npmjs.org/@types%2frun-parallel 115ms
+77 http fetch GET 200 https://registry.npmjs.org/@types/isexe/-/isexe-2.0.1.tgz 1203ms
+78 silly pacote tag manifest for @types/isexe@ts3.6 fetched in 1317ms
+79 http fetch GET 200 https://registry.npmjs.org/@types%2fshebang-command 100ms
+80 http fetch GET 200 https://registry.npmjs.org/@types/lodash.merge/-/lodash.merge-4.6.6.tgz 1189ms
+81 silly pacote tag manifest for @types/lodash.merge@ts3.6 fetched in 1313ms
+82 http fetch GET 200 https://registry.npmjs.org/@types/ms/-/ms-0.7.31.tgz 1176ms
+83 silly pacote tag manifest for @types/ms@ts3.6 fetched in 1309ms
+84 http fetch GET 200 https://registry.npmjs.org/@types/natural-compare/-/natural-compare-1.4.1.tgz 1232ms
+85 silly pacote tag manifest for @types/natural-compare@ts3.6 fetched in 1367ms
+86 http fetch GET 200 https://registry.npmjs.org/@types%2fjs-yaml 1533ms
+87 http fetch GET 200 https://registry.npmjs.org/@types%2fsupports-color 121ms
+88 http fetch GET 200 https://registry.npmjs.org/@types/supports-color/-/supports-color-8.1.1.tgz 428ms
+89 silly pacote tag manifest for @types/supports-color@ts3.6 fetched in 553ms
+90 http fetch GET 200 https://registry.npmjs.org/@types%2fwhich 103ms
+91 http fetch GET 200 https://registry.npmjs.org/@types%2fonce 1961ms
+92 http fetch GET 200 https://registry.npmjs.org/@types/run-parallel/-/run-parallel-1.1.0.tgz 1200ms
+93 silly pacote tag manifest for @types/run-parallel@ts3.6 fetched in 1319ms
+94 http fetch GET 200 https://registry.npmjs.org/@types/shebang-command/-/shebang-command-1.2.0.tgz 1223ms
+95 silly pacote tag manifest for @types/shebang-command@ts3.6 fetched in 1328ms
+96 http fetch GET 200 https://registry.npmjs.org/@types%2fpath-is-absolute 2334ms
+97 http fetch GET 200 https://registry.npmjs.org/@types/js-yaml/-/js-yaml-4.0.2.tgz 1160ms
+98 silly pacote tag manifest for @types/js-yaml@ts3.6 fetched in 2698ms
+99 http fetch GET 200 https://registry.npmjs.org/@types%2fpunycode 2289ms
+100 http fetch GET 200 https://registry.npmjs.org/@types%2ftype-check 1488ms
+101 http fetch GET 200 https://registry.npmjs.org/@types%2fprelude-ls 2399ms
+102 http fetch GET 200 https://registry.npmjs.org/@types/punycode/-/punycode-2.1.0.tgz 110ms
+103 silly pacote tag manifest for @types/punycode@ts3.6 fetched in 2405ms
+104 http fetch GET 200 https://registry.npmjs.org/@types/once/-/once-1.4.0.tgz 1033ms
+105 silly pacote tag manifest for @types/once@ts3.6 fetched in 2998ms
+106 http fetch GET 200 https://registry.npmjs.org/@types/which/-/which-2.0.1.tgz 1210ms
+107 silly pacote tag manifest for @types/which@ts3.6 fetched in 1316ms
+108 http fetch GET 200 https://registry.npmjs.org/@types/path-is-absolute/-/path-is-absolute-1.0.0.tgz 1179ms
+109 silly pacote tag manifest for @types/path-is-absolute@ts3.6 fetched in 3518ms
+110 http fetch GET 200 https://registry.npmjs.org/@types%2ftext-table 2294ms
+111 http fetch GET 200 https://registry.npmjs.org/@types/prelude-ls/-/prelude-ls-1.1.29.tgz 1206ms
+112 silly pacote tag manifest for @types/prelude-ls@ts3.6 fetched in 3610ms
+113 http fetch GET 200 https://registry.npmjs.org/@types/type-check/-/type-check-0.3.27.tgz 1289ms
+114 silly pacote tag manifest for @types/type-check@ts3.6 fetched in 2788ms
+115 http fetch GET 200 https://registry.npmjs.org/@types/text-table/-/text-table-0.2.2.tgz 1183ms
+116 silly pacote tag manifest for @types/text-table@ts3.6 fetched in 3482ms
+117 timing stage:rollbackFailedOptional Completed in 1ms
+118 timing stage:runTopLevelLifecycles Completed in 7797ms
+119 verbose type tag
+120 verbose stack @types/json-stable-stringify-without-jsonify: No matching version found for @types/json-stable-stringify-without-jsonify@ts3.6.
+120 verbose stack     at pickManifest (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/index.js:122:13)
+120 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/pacote/lib/fetchers/registry/manifest.js:24:14
+120 verbose stack     at tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+120 verbose stack     at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:517:31)
+120 verbose stack     at Promise._settlePromise (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:574:18)
+120 verbose stack     at Promise._settlePromise0 (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:619:10)
+120 verbose stack     at Promise._settlePromises (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:699:18)
+120 verbose stack     at _drainQueueStep (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:138:12)
+120 verbose stack     at _drainQueue (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:131:9)
+120 verbose stack     at Async._drainQueues (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:147:5)
+120 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:17:14)
+120 verbose stack     at processImmediate (internal/timers.js:456:21)
+121 verbose cwd /home/theia/.cache/typescript/3.6
+122 verbose Linux 5.10.102.1-microsoft-standard-WSL2
+123 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--ignore-scripts" "@types/eslint@ts3.6" "@types/argparse@ts3.6" "@types/balanced-match@ts3.6" "@types/brace-expansion@ts3.6" "@types/color-convert@ts3.6" "@types/color-name@ts3.6" "@types/concat-map@ts3.6" "@types/cross-spawn@ts3.6" "@types/debug@ts3.6" "@types/doctrine@ts3.6" "@types/eslint-scope@ts3.6" "@types/esquery@ts3.6" "@types/estraverse@ts3.6" "@types/esutils@ts3.6" "@types/fast-levenshtein@ts3.6" "@types/file-entry-cache@ts3.6" "@types/flat-cache@ts3.6" "@types/glob-parent@ts3.6" "@types/imurmurhash@ts3.6" "@types/inherits@ts3.6" "@types/is-glob@ts3.6" "@types/isexe@ts3.6" "@types/js-yaml@ts3.6" "@types/json-stable-stringify-without-jsonify@ts3.6" "@types/lodash.merge@ts3.6" "@types/ms@ts3.6" "@types/natural-compare@ts3.6" "@types/once@ts3.6" "@types/path-is-absolute@ts3.6" "@types/prelude-ls@ts3.6" "@types/punycode@ts3.6" "@types/run-parallel@ts3.6" "@types/shebang-command@ts3.6" "@types/supports-color@ts3.6" "@types/text-table@ts3.6" "@types/type-check@ts3.6" "@types/which@ts3.6" "--save-dev" "--user-agent=typesInstaller/3.6.3"
+124 verbose node v12.18.3
+125 verbose npm  v6.14.6
+126 error code ETARGET
+127 error notarget No matching version found for @types/json-stable-stringify-without-jsonify@ts3.6.
+128 error notarget In most cases you or one of your dependencies are requesting
+128 error notarget a package version that doesn't exist.
+129 verbose exit [ 1, true ]
